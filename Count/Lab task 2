@@ -1,1 +1,197 @@
+Registration**************
 
+<html>
+
+    <head>
+        <title>Registration Form</title>
+    </head>
+    <body>
+<center>
+        <h1>Registration</h1>
+  <form> 
+<fieldset style = "width:300px">
+<legend>General Information</legend>
+            <table>
+                <tr>
+                    <td>
+                        First Name:
+                    </td>
+                    <td>
+                        <input type="text">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Last Name:
+                    </td>
+                    <td>
+                        <input type="text">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Father's Name:
+                    </td>
+                    <td>
+                        <input type="text">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Mother's Name:
+                    </td>
+                    <td>
+                        <input type="text">
+                    </td>
+                </tr>
+            <tr>
+                <td>
+                    Gender:
+                </td>
+                <td>
+                    <input type="radio" name="gender">Male
+                    <input type="radio" name="gender">Female
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Date of Birth:
+                </td>
+                <td>
+                    <input type="date">
+                </td>
+            </tr>
+            
+            <tr>
+                <td>
+                   Blood Group:
+                </td>
+                <td>
+                    <select>
+                        <option>A+</option>
+                        <option>B+</option>
+                        <option>AB+</option>
+                        <option>O-</option>
+                    </select>
+                </td>
+            </tr>
+            
+            
+            </table>
+</fieldset>
+
+<fieldset style = "width:300px">
+<legend>Contact Information</legend>
+            <table>
+                <tr>
+                    <td>
+                        Email:
+                    </td>
+                    <td>
+                        <input type="email">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Phone/Mobile:
+                    </td>
+                    <td>
+                        <input type="phone">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Website:
+                    </td>
+                    <td>
+                        <input type="website">
+                    </td>
+                
+            <tr>
+                <td>
+                    Address:
+                </td>
+                <td>
+                    <textarea rows="5" col="17"></textarea>
+                </td>
+            </tr>
+            
+            </table>
+</fieldset>
+<fieldset style = "width:300px">
+<legend>Account Information</legend>
+            <table>
+                <tr>
+                    <td>
+                       User Name:
+                    </td>
+                    <td>
+                        <input type="text">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                       Password:
+                    </td>
+                    <td>
+                        <input type="password">
+                    </td>
+                </tr>
+            </table>
+                
+</fieldset>
+<tr>
+    <td>
+        <input type="submit" value="Register">
+        
+    </td>
+</tr>
+<p>Already have an account? Login<a href="file:///C:/xampp/htdocs/xampp/shahriar/login.html">  here</a></p>
+</center> 
+        </form>
+        </body>
+</html>
+
+
+Login**************
+
+<html>
+
+    <head>
+        <title></title>
+    </head>
+    <body>
+<center>
+        <h1>Login</h1>
+  <form> 
+<fieldset style = "width:300px">
+<legend>Login</legend>
+            <table>
+                <tr>
+                    <td>
+                       Username:
+                    </td>
+                    <td>
+                        <input type="text">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Password:
+                    </td>
+                    <td>
+                        <input type="password">
+                    </td>
+                </tr>
+ <tr>
+    <td>
+        <input type="submit" value="login">
+        
+    </td>
+</tr>
+            
+            
+            </table>
+</fieldset>
+
+<p>Don't have any account? Registration<a href="file:///C:/xampp/htdocs/xampp/shahriar/shahriar.html?">  here</a></p>
